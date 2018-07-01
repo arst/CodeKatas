@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas.KarateChop", "CodeKatas.KarateChop\CodeKatas.KarateChop.csproj", "{3FD5794D-176B-4262-BC9C-D9C03CF90508}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas.DataMunging", "CodeKatas.DataMunging\CodeKatas.DataMunging.csproj", "{A8676BFF-282B-4782-80E1-9F2A2CD23344}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas.DataMungingTests", "CodeKatas.DataMungingTests\CodeKatas.DataMungingTests.csproj", "{89E3A7B1-19AE-4057-8879-01F36B668611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas.LightWeightHttpService", "CodeKatas.LightWeightHttpService\CodeKatas.LightWeightHttpService.csproj", "{3AB7AE3B-F09B-423E-A545-B5D352E66B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{89E3A7B1-19AE-4057-8879-01F36B668611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89E3A7B1-19AE-4057-8879-01F36B668611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89E3A7B1-19AE-4057-8879-01F36B668611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB7AE3B-F09B-423E-A545-B5D352E66B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB7AE3B-F09B-423E-A545-B5D352E66B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB7AE3B-F09B-423E-A545-B5D352E66B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB7AE3B-F09B-423E-A545-B5D352E66B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CE7FD44-5DA6-435A-9A76-4CA2E5AAF127}
 	EndGlobalSection
 EndGlobal
